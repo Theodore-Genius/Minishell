@@ -22,7 +22,7 @@ Supports up to 10 command-line arguments for external commands
 - **Signal Handling:**  
 Custom `SIGINT` handler prevents the shell from terminating when the user presses Ctrl+C; input is interrupted and the prompt gets displayed again   
 
-- **Robust I/O and Parsing:**  
+- **I/O and Parsing:**  
 Strips trailing newlines and ignores empty input lines    
 Limits tokenized arguments to 10 to avoid over-run of the argument buffer    
 Provides basic error messages for invalid commands, `cd` misuse, and failed system calls  
